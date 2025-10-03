@@ -1,0 +1,20 @@
+# Visual Cortex Neural Model Requirements
+
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+torch>=2.0.0
+
+# Spiking Neural Network backends (install at least one)
+# Option 1: snntorch (recommended for beginners)
+snntorch>=0.6.0
+
+# Option 2: Norse (alternative SNN backend)
+# norse>=0.0.7
+
+# Optional but recommended
+matplotlib>=3.3.0
+tqdm>=4.60.0
+
+# For CUDA support (if using GPU)
+# Install PyTorch with CUDA from: https://pytorch.org/get-started/locally/
